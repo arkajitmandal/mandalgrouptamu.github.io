@@ -174,7 +174,7 @@
 }
 
 /* .vbu {
-  background-image: url("../../assets/img/VBU-BW.png");
+  background-image: url("/assets/img/VBU-BW.png");
   background-repeat: no-repeat;
   background-size: 3.5%;
   background-position: right 1% bottom 98%;
@@ -190,14 +190,14 @@
 
 
 .ur {
-  background-image: url("../../assets/img/uofrBW.png");
+  background-image: url("/assets/img/uofrBW.png");
   background-repeat: no-repeat;
   background-size: 5%;
   background-position: right 1% bottom 98%;
 }
 
 .cu {
-   background-image: url("../../assets/img/CUBW.png"); 
+   background-image: url("/assets/img/CUBW.png"); 
   background-repeat: no-repeat;
   background-size: 5%;
   background-position: right 1% bottom 98%;
