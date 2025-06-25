@@ -28,6 +28,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Baskervville&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo&amp;display=swap">
     <link rel="stylesheet" href="/assets/css/swiper-icons.css">
+    <link rel="stylesheet" href="/assets/css/bss-overrides.css">
     <link rel="stylesheet" href="/assets/css/untitled.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
     <link rel="stylesheet" href="/assets/css/Simple-Slider-swiper-bundle.min.css">
@@ -35,13 +36,14 @@
 </head>
 
 <body onload="onLoadMainPage()">
-    <nav class="navbar navbar-expand-md sticky-top navbar-shrink py-3 navbar-light" id="mainNav" onmouseover="researchbg(&#39;Slide1.jpeg&#39;);">
+    <nav class="navbar navbar-expand-md sticky-top py-3 navbar-shrink navbar-light" id="mainNav" onmouseover="researchbg(&#39;Slide1.jpeg&#39;);">
         <div class="container"><a class="navbar-brand d-flex align-items-center" href="/"><span><img src="/assets/img/ATM-ezgif.com-video-to-gif-converter.gif" style="width: 250px;"></span></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navcol-1">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item"><a class="nav-link active" href="/index.html" style="font-family: Baskervville, serif;">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="/publications.html" style="font-family: Baskervville, serif;">Publications</a></li>
                     <li class="nav-item"><a class="nav-link" href="/people.html" style="font-family: Baskervville, serif;">Members</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/news.html" style="font-family: Baskervville, serif;">News</a></li>
                 </ul><a class="btn btn-primary shadow" role="button" href="/Research.html" style="background-color: #460000;border-color: #440000;font-family: Baskervville, serif;">Research</a><a class="btn btn-primary shadow" role="button" href="https://bsky.app/profile/mandalgroup.bsky.social" style="background-color: #ffffff;border-color: #460000;font-family: Baskervville, serif;margin-left: 5px;padding-left: 15px;padding-right: 15px;">🦋</a>
             </div>
         </div>
@@ -74,28 +76,28 @@
             <div class="row">
                 <div class="col-md-4 col-lg-4">
                     <div class="card research-card">
-                        <div class="card-body px-4 py-5 px-md-5" style="padding-left: 2rem !important;padding-right: 2rem !important;">
+                        <div class="card-body px-4 px-md-5 py-5" style="padding-left: 2rem !important;padding-right: 2rem !important;">
                             <div class="bs-icon-lg d-flex justify-content-center align-items-center mb-3 bs-icon" style="top: 1rem;right: 1rem;position: absolute;"></div>
                             <h5 class="fw-bold card-title" style="font-family: Baskervville, serif;">Modify Matter using Light-Matter Interactions<br><br></h5><img src="/assets/img/manupulate.png" style="width: 100%;height: 100%;border-radius: 1em;" width="212" height="212">
-                            <p class="text-muted card-text mb-4"></p><button class="btn btn-primary shadow" type="button" style="background-color: #460000;border-color: #440000;width: 100%;" onclick="location.href=&#39;./Research.html&#39;">Learn more</button>
+                            <p class="text-muted mb-4 card-text"></p><button class="btn btn-primary shadow" type="button" style="background-color: #460000;border-color: #440000;width: 100%;" onclick="location.href=&#39;./Research.html&#39;">Learn more</button>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 col-lg-4">
                     <div class="card research-card">
-                        <div class="card-body px-4 py-5 px-md-5" style="padding-left: 2rem !important;padding-right: 2rem !important;">
+                        <div class="card-body px-4 px-md-5 py-5" style="padding-left: 2rem !important;padding-right: 2rem !important;">
                             <div class="bs-icon-lg d-flex justify-content-center align-items-center mb-3 bs-icon" style="top: 1rem;right: 1rem;position: absolute;"></div>
                             <h5 class="fw-bold card-title" style="color: rgb(45, 45, 45);font-family: Baskervville, serif;"><strong>Towards Next Generation Quantum Devices&nbsp;&nbsp;</strong><br><br></h5><img src="/assets/img/Screenshot%202024-02-23%20at%207.41.10 PM.jpg" style="width: 100%;height: 100%;border-radius: 1em;" width="212" height="212">
-                            <p class="text-muted card-text mb-4"></p><button class="btn btn-primary shadow" type="button" style="background-color: #460000;border-color: #440000;width: 100%;" onclick="location.href=&#39;./Research.html&#39;">Learn more</button>
+                            <p class="text-muted mb-4 card-text"></p><button class="btn btn-primary shadow" type="button" style="background-color: #460000;border-color: #440000;width: 100%;" onclick="location.href=&#39;./Research.html&#39;">Learn more</button>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 col-lg-4">
                     <div class="card research-card">
-                        <div class="card-body px-4 py-5 px-md-5" style="padding-left: 2rem !important;padding-right: 2rem !important;">
+                        <div class="card-body px-4 px-md-5 py-5" style="padding-left: 2rem !important;padding-right: 2rem !important;">
                             <div class="bs-icon-lg d-flex justify-content-center align-items-center mb-3 bs-icon" style="top: 1rem;right: 1rem;position: absolute;"></div>
                             <h5 class="fw-bold card-title" style="font-family: Baskervville, serif;"><strong>Plasmonic Catalysis and Plasmonic&nbsp;Chemistry</strong><br><br></h5><img src="/assets/img/plasmonics-1.jpg" style="width: 100%;height: 100%;border-radius: 1em;" width="212" height="212">
-                            <p class="text-muted card-text mb-4"></p><button class="btn btn-primary shadow" type="button" style="background-color: #460000;border-color: #440000;width: 100%;" onclick="location.href=&#39;./Research.html&#39;">Learn more</button>
+                            <p class="text-muted mb-4 card-text"></p><button class="btn btn-primary shadow" type="button" style="background-color: #460000;border-color: #440000;width: 100%;" onclick="location.href=&#39;./Research.html&#39;">Learn more</button>
                         </div>
                     </div>
                 </div>
