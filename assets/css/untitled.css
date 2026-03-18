@@ -173,7 +173,7 @@
   background-color: rgb(102, 102, 102);
 }
 
-/* .vbu {
+.vbu {
   background-image: url("/assets/img/VBU-BW.png");
   background-repeat: no-repeat;
   background-size: 3.5%;
@@ -181,13 +181,11 @@
 }
 
 .ncl {
-  background-image: url("ncl-logo.png");
+  background-image: url("/assets/img/ncl-logo.png");
   background-repeat: no-repeat;
   background-size: 6%;
   background-position: right 1% bottom 98%;
 }
-
-
 
 .ur {
   background-image: url("/assets/img/uofrBW.png");
@@ -197,11 +195,38 @@
 }
 
 .cu {
-   background-image: url("/assets/img/CUBW.png"); 
+  background-image: url("/assets/img/CUBW.png");
   background-repeat: no-repeat;
   background-size: 5%;
   background-position: right 1% bottom 98%;
-} */
+}
+
+.tamu {
+  background-image: url("/assets/img/tamu-bw.jpg");
+  background-repeat: no-repeat;
+  background-size: 5%;
+  background-position: right 1% bottom 98%;
+}
+
+.ur h3 {
+  padding-right: 5%;
+}
+
+.vbu h3 {
+  padding-right: 5%;
+}
+
+.ncl h3 {
+  padding-right: 5%;
+}
+
+.cu h3 {
+  padding-right: 5%;
+}
+
+.tamu h3 {
+  padding-right: 5%;
+}
 
 input[type=checkbox] {
   height: 0;
