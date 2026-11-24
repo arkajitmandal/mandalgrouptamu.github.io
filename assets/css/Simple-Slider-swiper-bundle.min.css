@@ -121,7 +121,6 @@
 .swiper-container-css-mode > .swiper-wrapper {
   overflow: auto;
   scrollbar-width: none;
-  -ms-overflow-style: none;
 }
 
 .swiper-container-css-mode > .swiper-wrapper::-webkit-scrollbar {
